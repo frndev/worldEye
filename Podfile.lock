@@ -1,0 +1,21 @@
+PODS:
+  - CommonCrypto (1.0)
+
+DEPENDENCIES:
+  - CommonCrypto (from `https://github.com/Canecom/CommonCrypto.git`)
+
+EXTERNAL SOURCES:
+  CommonCrypto:
+    :git: https://github.com/Canecom/CommonCrypto.git
+
+CHECKOUT OPTIONS:
+  CommonCrypto:
+    :commit: 8cc19949893e3697810038e554609f3d24809979
+    :git: https://github.com/Canecom/CommonCrypto.git
+
+SPEC CHECKSUMS:
+  CommonCrypto: 9c3cefb896e3e7cb906ce67d25e5081296b3d0da
+
+PODFILE CHECKSUM: ac82e699a2369799d5d531d345a03db6387d0df9
+
+COCOAPODS: 1.1.0.rc.3

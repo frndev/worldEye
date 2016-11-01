@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38536119FA313D888CDC30D3 /* Pods_worldEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7E5CC088D5AB83E8804D36 /* Pods_worldEye.framework */; };
 		3F377D0F1DC5319500EFF59A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F377D0E1DC5319500EFF59A /* AppDelegate.swift */; };
-		3F377D111DC5319500EFF59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F377D101DC5319500EFF59A /* ViewController.swift */; };
+		3F377D111DC5319500EFF59A /* WorldEyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F377D101DC5319500EFF59A /* WorldEyeViewController.swift */; };
 		3F377D141DC5319500EFF59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F377D121DC5319500EFF59A /* Main.storyboard */; };
 		3F377D161DC5319500EFF59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F377D151DC5319500EFF59A /* Assets.xcassets */; };
 		3F377D191DC5319500EFF59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F377D171DC5319500EFF59A /* LaunchScreen.storyboard */; };
+		3FA3C5731DC537D000D8852A /* WorldEyeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3C5721DC537D000D8852A /* WorldEyeCoordinator.swift */; };
+		3FA3C5751DC537E200D8852A /* WorldEyeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3C5741DC537E200D8852A /* WorldEyeViewModel.swift */; };
+		3FA3C5781DC5380E00D8852A /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3C5771DC5380E00D8852A /* Tweet.swift */; };
+		3FA3C57C1DC7BB4900D8852A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3C57B1DC7BB4900D8852A /* API.swift */; };
+		3FA3C5821DC7C9AF00D8852A /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3C5811DC7C9AF00D8852A /* Hash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		245F5403AEF3994687315A5F /* Pods-worldEye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-worldEye.release.xcconfig"; path = "Pods/Target Support Files/Pods-worldEye/Pods-worldEye.release.xcconfig"; sourceTree = "<group>"; };
+		3D39F35BDA8F4CE2424DB022 /* Pods-worldEye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-worldEye.debug.xcconfig"; path = "Pods/Target Support Files/Pods-worldEye/Pods-worldEye.debug.xcconfig"; sourceTree = "<group>"; };
 		3F377D0B1DC5319500EFF59A /* worldEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = worldEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F377D0E1DC5319500EFF59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F377D101DC5319500EFF59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F377D101DC5319500EFF59A /* WorldEyeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldEyeViewController.swift; sourceTree = "<group>"; };
 		3F377D131DC5319500EFF59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F377D151DC5319500EFF59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F377D181DC5319500EFF59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F377D1A1DC5319500EFF59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA3C5721DC537D000D8852A /* WorldEyeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldEyeCoordinator.swift; sourceTree = "<group>"; };
+		3FA3C5741DC537E200D8852A /* WorldEyeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldEyeViewModel.swift; sourceTree = "<group>"; };
+		3FA3C5771DC5380E00D8852A /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		3FA3C57B1DC7BB4900D8852A /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3FA3C5811DC7C9AF00D8852A /* Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		6D7E5CC088D5AB83E8804D36 /* Pods_worldEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_worldEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38536119FA313D888CDC30D3 /* Pods_worldEye.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E953967F6730186D09DBAA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E5CC088D5AB83E8804D36 /* Pods_worldEye.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		392DBC06085C96480AFB358B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D39F35BDA8F4CE2424DB022 /* Pods-worldEye.debug.xcconfig */,
+				245F5403AEF3994687315A5F /* Pods-worldEye.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3F377D021DC5319500EFF59A = {
 			isa = PBXGroup;
 			children = (
 				3F377D0D1DC5319500EFF59A /* worldEye */,
 				3F377D0C1DC5319500EFF59A /* Products */,
+				392DBC06085C96480AFB358B /* Pods */,
+				1E953967F6730186D09DBAA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,51 @@
 		3F377D0D1DC5319500EFF59A /* worldEye */ = {
 			isa = PBXGroup;
 			children = (
+				3FA3C57A1DC7BB3400D8852A /* API */,
 				3F377D0E1DC5319500EFF59A /* AppDelegate.swift */,
-				3F377D101DC5319500EFF59A /* ViewController.swift */,
+				3FA3C5791DC5381500D8852A /* Models */,
+				3FA3C5701DC537A000D8852A /* Controllers */,
 				3F377D121DC5319500EFF59A /* Main.storyboard */,
 				3F377D151DC5319500EFF59A /* Assets.xcassets */,
 				3F377D171DC5319500EFF59A /* LaunchScreen.storyboard */,
 				3F377D1A1DC5319500EFF59A /* Info.plist */,
+				3FA3C5811DC7C9AF00D8852A /* Hash.swift */,
 			);
 			path = worldEye;
+			sourceTree = "<group>";
+		};
+		3FA3C5701DC537A000D8852A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3C5711DC537B000D8852A /* WorldEye */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3FA3C5711DC537B000D8852A /* WorldEye */ = {
+			isa = PBXGroup;
+			children = (
+				3F377D101DC5319500EFF59A /* WorldEyeViewController.swift */,
+				3FA3C5721DC537D000D8852A /* WorldEyeCoordinator.swift */,
+				3FA3C5741DC537E200D8852A /* WorldEyeViewModel.swift */,
+			);
+			name = WorldEye;
+			sourceTree = "<group>";
+		};
+		3FA3C5791DC5381500D8852A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3C5771DC5380E00D8852A /* Tweet.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3FA3C57A1DC7BB3400D8852A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3C57B1DC7BB4900D8852A /* API.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F377D1D1DC5319500EFF59A /* Build configuration list for PBXNativeTarget "worldEye" */;
 			buildPhases = (
+				A771284B138E726F4D0FCEB2 /* [CP] Check Pods Manifest.lock */,
 				3F377D071DC5319500EFF59A /* Sources */,
 				3F377D081DC5319500EFF59A /* Frameworks */,
 				3F377D091DC5319500EFF59A /* Resources */,
+				E1E59DE7CE32020640A51627 /* [CP] Embed Pods Frameworks */,
+				C85F762370301C1A95D896ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +171,7 @@
 					3F377D0A1DC5319500EFF59A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = X44M3PTYDX;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +207,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A771284B138E726F4D0FCEB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C85F762370301C1A95D896ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-worldEye/Pods-worldEye-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E59DE7CE32020640A51627 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-worldEye/Pods-worldEye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F377D071DC5319500EFF59A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F377D111DC5319500EFF59A /* ViewController.swift in Sources */,
+				3FA3C5731DC537D000D8852A /* WorldEyeCoordinator.swift in Sources */,
+				3FA3C5781DC5380E00D8852A /* Tweet.swift in Sources */,
+				3FA3C5751DC537E200D8852A /* WorldEyeViewModel.swift in Sources */,
+				3F377D111DC5319500EFF59A /* WorldEyeViewController.swift in Sources */,
+				3FA3C57C1DC7BB4900D8852A /* API.swift in Sources */,
 				3F377D0F1DC5319500EFF59A /* AppDelegate.swift in Sources */,
+				3FA3C5821DC7C9AF00D8852A /* Hash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +387,33 @@
 		};
 		3F377D1E1DC5319500EFF59A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D39F35BDA8F4CE2424DB022 /* Pods-worldEye.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X44M3PTYDX;
 				INFOPLIST_FILE = worldEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.frndev.worldEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3F377D1F1DC5319500EFF59A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 245F5403AEF3994687315A5F /* Pods-worldEye.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X44M3PTYDX;
 				INFOPLIST_FILE = worldEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.frndev.worldEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +437,7 @@
 				3F377D1F1DC5319500EFF59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
